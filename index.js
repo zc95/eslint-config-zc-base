@@ -1,11 +1,14 @@
 module.exports = {
-    root: true,
     env: {
+        browser: true,
+        es6: true,
+        commonjs: true,
         node: true,
     },
     extends: "eslint:recommended", // 多个可以用数组
     parserOptions: {
-        parser: "babel-eslint",
+        ecmaVersion: 8,
+        sourceType: "module",
     },
     rules: {
         //http://eslint.cn/docs/rules/
@@ -68,7 +71,7 @@ module.exports = {
 
         //Variables
         "no-label-var": 2, //不允许标签与变量同名
-        "no-shadow": 2, //禁止变量声明与外层作用域的变量同名
+        "no-shadow": ["error", { allow: ["state", "config"] }], //禁止变量声明与外层作用域的变量同名（允许state、config）
         "no-shadow-restricted-names": 2, //禁止将标识符定义为受限的名字
         "no-undef": 1, //禁用未声明的变量，除非它们在 /*global */ 注释中被提到
         "no-undef-init": 1, //不允许初始化变量值为 undefined
