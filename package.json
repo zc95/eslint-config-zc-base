@@ -1,0 +1,17 @@
+{
+    "name": "eslint-config-zc-base",
+    "version": "1.0.1",
+    "description": "ESLint config base version",
+    "main": "index.js",
+    "scripts": {},
+    "keywords": [
+      "npm"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "babel-eslint": "^10.1.0",
+      "eslint-config-recommended": "^4.1.0"
+    }
+  }
+  
