@@ -115,16 +115,6 @@ module.exports = {
         ], //强制标识符的最大和最小长度
         'id-match': [0], //要求标识符匹配一个指定的正则表达式
         indent: [1, 4], //4空格缩进
-        "key-spacing": [
-            1,
-            {
-                align: {
-                    beforeColon: true,
-                    afterColon: true,
-                    on: "colon",
-                },
-            },
-        ], //强制在对象字面量的属性中键和值之间使用一致的间距
         'keyword-spacing': 1, //强制在关键字前后使用一致的空格
         'linebreak-style': [0, 'unix'], //强制使用一致的换行风格
         'max-depth': [
