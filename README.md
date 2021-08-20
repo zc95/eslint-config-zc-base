@@ -1,14 +1,8 @@
 通过npm包的方式在项目中引入自己定义的eslint、stylelint规则
 
 ## 链接
-- 文档
-    - https://xiaozhuanlan.com/topic/0716948325
-- npm包
-    - https://www.npmjs.com/package/eslint-config-zc-base
-    - https://www.npmjs.com/package/stylelint-config-zc-base
-- github
-    - https://github.com/zc95/eslint-config-zc-base
-    - https://github.com/zc95/stylelint-config-zc
+- https://www.npmjs.com/package/eslint-config-zc-base
+- https://www.npmjs.com/package/stylelint-config-zc-base
 
 ## 安装依赖
 ```js
